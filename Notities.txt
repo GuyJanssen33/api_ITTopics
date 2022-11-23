@@ -1,0 +1,78 @@
+NOTITIES 21/09/2022
+-----------------------------
+
+in 2018 GDPR in praktijk gebracht
+
+vroeger (vorige europes wet dateert van 1995) 
+
+    elk land regelde zijn eigen privacywetgeving
+
+GDPR is een regulation (vastgestelde wet)
+    gaat over persoonlijke data (alles wat rechtstreeks gelinkt kan worden aan een persoon)
+    geldt voor alle EU landen
+
+    online identifiers (cookies, IP adressen, MAC adres, session, etc)
+                                    sessions: bijv bij bol.com een winkelmandje vullen en later terugkomen
+
+ISP: internet service provider (telenet, proximus, orange,...)
+
+voor wie geld GDPR?
+    europese vestigingen van bedrijven
+    vestingen die goederen of diensten aanbieden aan EU burgers
+    vestigingen de persoonlijke data verwerken van EU burgers
+
+als ik een site heb met gevoelige data op een server van Google, dan zijn we beiden verantwoordelijk voor de GDPR
+
+met de API kunnen we een soort van beveiliging opzetten
+    Private: alleen de eigenaar van de data kan de data zien
+    Partner: data delen met specifieke partners/ kan zorgen voor inkomsten
+    Public: iedereen kan de data zien/ ook derde partijen
+
+
+API is ontwikkelde om te communiceren vie netwerk
+    REST API: Representational State Transfer Application Programming Interface
+    SOAP API: Simple Object Access Protocol
+    GraphQL API: Query Language
+
+manipuleren van data vanop een andere PC 
+respone: meestel in JSON formaat
+    JSON: JavaScript Object Notation
+    XML: Extensible Markup Language
+
+SOAP API: XML formaat
+    XML: Extensible Markup Language
+    SOAP: Simple Object Access Protocol
+    request gebeurd met http of smtp
+    meer regels dan REST
+
+REST API: JSON formaat
+    JSON: JavaScript Object Notation
+    REST: Representational State Transfer
+    request gebeurd met http of smtp
+    minder regels dan SOAP
+    een architectuur
+    layered systeem: verschillende lagen
+    code on demand:(optioneel) meestal XML of JSON als return formaat maar er kunnen bijv ook widgets of andere code teruggegeven worden
+    uniform interface: standaard manier om te communiceren(fundamenteel onderdeel van REST)
+
+NOTITIES 12/10/2022
+-----------------------------
+
+nodejs
+kan gebruikt worden om een server te maken
+kan gebruikt worden om een client te maken
+kan gebruikt worden om een desktop app te maken
+kan gebruikt worden om een mobile app te maken
+kan gebruikt worden om een chatbot te maken.
+
+asynchroon: verschillende codes naast elkaar kunnen uitgevoerd worden.
+    voorbeeld: als je een file moet downloaden, dan kan je een andere file downloaden terwijl de eerste file nog bezig is met downloaden.
+
+
+NOTITIES les 6 23/11/2022
+-----------------------------
+
+github actions => platform om development te automatiseren
+    is volledig geïntegreerd met github
+
+
