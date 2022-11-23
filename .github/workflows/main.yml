@@ -5,7 +5,7 @@ on:
       branches: [main]
       
 jobs:
-  test_pull_resquest:
+  test_pull_request:
     runs-on: ${{matrix.os}}
     
     strategy:
